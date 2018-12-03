@@ -5,6 +5,28 @@ Berisi folder :
 
 BUAT NAMA FOLDER DI HTDOCSNYA fiesto_car_baru (sementara)
 
+======================================================================================================
+
+SATU FORM LOGIN BISA UNTUK MENANGANI 3 KATEGORI AKUN TANPA PILIHAN STATUS ATAU KETERANGAN!!!
+keterangan akun:
+nomor 1 = admin
+nomor 2 = member
+nomor 3 = supir
+
+======================================================================================================
+
+Data yang ada di database:
+Admin:
+	-
+Member:
+	- email = alfibagus130@gmail.com
+	- kata sandi = member
+Supir:
+	- email = alfiras@gmail.com
+	- kata sandi = supir
+
+======================================================================================================
+
 gabungkan ketiga folder itu di folder CI
 
  >>>>>> dengan keterangan!!!!!! <<<<<
