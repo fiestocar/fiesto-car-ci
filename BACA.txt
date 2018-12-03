@@ -1,0 +1,18 @@
+Berisi folder :
+- Controllers
+- Models
+- Views
+
+BUAT NAMA FOLDER DI HTDOCSNYA fiesto_car_baru (sementara)
+
+gabungkan ketiga folder itu di folder CI
+
+ >>>>>> dengan keterangan!!!!!! <<<<<
+
+	$autoload['libraries'] = array('database','session');
+
+	$autoload['helper'] = array('form','url');
+
+	$config['base_url'] = 'http://localhost/fiesto_car_baru/';
+
+	$config['encryption_key'] = 'fiesto_car_agente_liber_parallel_paradise';
