@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Fiesto Car</title>
-        <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>"/>
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>"/>
         <style>
             body{
                 padding: 15px;
@@ -56,11 +56,11 @@
 			<td><?php echo $jenis->nama_jenis ?></td>
 			<td style="text-align:center" width="200px">
 				<?php
-				echo anchor(site_url('jenis/read/'.$jenis->id_jenis),'<i class="fa fa-eye"></i>',array('title'=>'detail','class'=>'btn btn-primary btn-sm'));
+				echo anchor(site_url('jenis/read/'.$jenis->id_jenis),'Baca',array('title'=>'detail','class'=>'btn btn-primary btn-sm'));
 				echo '  ';
-				echo anchor(site_url('jenis/update/'.$jenis->id_jenis),'<i class="fa fa-pencil-square-o"></i>',array('title'=>'ubah','class'=>'btn btn-warning btn-sm'));
+				echo anchor(site_url('jenis/update/'.$jenis->id_jenis),'Ubah',array('title'=>'ubah','class'=>'btn btn-warning btn-sm'));
 				echo '  ';
-				echo anchor(site_url('jenis/delete/'.$jenis->id_jenis),'<i class="fa fa-trash-o"></i>','title="hapus" class="btn btn-danger btn-sm" onclick="javasciprt: return confirm(\'Yakin dihapus ?\')"');
+				echo anchor(site_url('jenis/delete/'.$jenis->id_jenis),'Hapus','title="hapus" class="btn btn-danger btn-sm" onclick="javasciprt: return confirm(\'Yakin dihapus ?\')"');
 				?>
 			</td>
 		</tr>
