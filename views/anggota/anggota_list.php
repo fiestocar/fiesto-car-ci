@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Fiesto Car</title>
-        <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>"/>
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>"/>
         <style>
             body{
                 padding: 15px;
@@ -62,11 +62,11 @@
 			<td><?php echo $anggota->kategori ?></td>
 			<td style="text-align:center" width="200px">
 				<?php
-				echo anchor(site_url('anggota/read/'.$anggota->id_anggota),'<i class="fa fa-eye"></i>',array('title'=>'detail','class'=>'btn btn-primary btn-sm'));
+				echo anchor(site_url('anggota/read/'.$anggota->id_anggota),'Baca',array('title'=>'detail','class'=>'btn btn-primary btn-sm'));
 				echo '  ';
-				echo anchor(site_url('anggota/update/'.$anggota->id_anggota),'<i class="fa fa-pencil-square-o"></i>',array('title'=>'ubah','class'=>'btn btn-warning btn-sm'));
+				echo anchor(site_url('anggota/update/'.$anggota->id_anggota),'Ubah',array('title'=>'ubah','class'=>'btn btn-warning btn-sm'));
 				echo '  ';
-				echo anchor(site_url('anggota/delete/'.$anggota->id_anggota),'<i class="fa fa-trash-o"></i>','title="hapus" class="btn btn-danger btn-sm" onclick="javasciprt: return confirm(\'Yakin dihapus ?\')"');
+				echo anchor(site_url('anggota/delete/'.$anggota->id_anggota),'Update','title="hapus" class="btn btn-danger btn-sm" onclick="javasciprt: return confirm(\'Yakin dihapus ?\')"');
 				?>
 			</td>
 		</tr>
