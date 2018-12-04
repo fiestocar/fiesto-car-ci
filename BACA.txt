@@ -35,6 +35,6 @@ gabungkan ketiga folder itu di folder CI
 
 	$autoload['helper'] = array('form','url');
 
-	$config['base_url'] = 'http://localhost/fiesto_car_baru/';
+	$config['base_url'] = 'http://localhost/fiesto_car_baru/'; <--/bikin folder namanya fiesto_car_baru di httdocs dixamp, taroh di situ CI nya/-->
 
 	$config['encryption_key'] = 'fiesto_car_agente_liber_parallel_paradise';
