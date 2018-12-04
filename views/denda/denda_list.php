@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Fiesto Car</title>
-        <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>"/>
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>"/>
         <style>
             body{
                 padding: 15px;
@@ -58,11 +58,11 @@
 			<td><?php echo $denda->biaya_denda ?></td>
 			<td style="text-align:center" width="200px">
 				<?php
-				echo anchor(site_url('denda/read/'.$denda->id_denda),'<i class="fa fa-eye"></i>',array('title'=>'detail','class'=>'btn btn-primary btn-sm'));
+				echo anchor(site_url('denda/read/'.$denda->id_denda),'Baca',array('title'=>'detail','class'=>'btn btn-primary btn-sm'));
 				echo '  ';
-				echo anchor(site_url('denda/update/'.$denda->id_denda),'<i class="fa fa-pencil-square-o"></i>',array('title'=>'ubah','class'=>'btn btn-warning btn-sm'));
+				echo anchor(site_url('denda/update/'.$denda->id_denda),'Ubah',array('title'=>'ubah','class'=>'btn btn-warning btn-sm'));
 				echo '  ';
-				echo anchor(site_url('denda/delete/'.$denda->id_denda),'<i class="fa fa-trash-o"></i>','title="hapus" class="btn btn-danger btn-sm" onclick="javasciprt: return confirm(\'Yakin dihapus ?\')"');
+				echo anchor(site_url('denda/delete/'.$denda->id_denda),'Hapus','title="hapus" class="btn btn-danger btn-sm" onclick="javasciprt: return confirm(\'Yakin dihapus ?\')"');
 				?>
 			</td>
 		</tr>
